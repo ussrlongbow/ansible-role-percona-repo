@@ -1,0 +1,9 @@
+---
+# tasks file for ansible-role-percona-repo
+- name: Install Percona's repository package
+  apt:
+    deb: https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+
+- name: Update APT cache
+  apt:
+    update_cache: yes
