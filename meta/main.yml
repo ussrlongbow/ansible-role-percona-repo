@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: percona-repo
   author: Valentin Gostev
   description: Ansible role to setup Percona software repository
   license: MIT
