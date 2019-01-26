@@ -26,7 +26,7 @@ As simple as:
 
     - hosts: servers
       roles:
-         - role: ussrlongbow.percona-repo
+         - role: ussrlongbow.percona_repo
 
 License
 -------
