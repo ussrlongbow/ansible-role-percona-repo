@@ -1,3 +1,2 @@
 ---
-percona_enabled_repos:
-  - all
+percona_product: ps57

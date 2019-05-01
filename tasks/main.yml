@@ -5,7 +5,7 @@
     deb: https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 
 - name: Enable Percona products
-  command: 'percona-release enable {{ percona_enabled_repos | join(" ") }}'
+  command: 'percona-release setup {{ percona_product }}'
 
 - name: Update APT cache
   apt:
